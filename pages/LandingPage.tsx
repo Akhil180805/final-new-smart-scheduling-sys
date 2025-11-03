@@ -1,9 +1,10 @@
+
 import React from 'react';
-import { useAppContext } from '../contexts/AppContext';
-import Button from '../components/common/Button';
-import { CodeBracketIcon, UsersGroupIcon, ClockIcon, ChartBarIcon, BellIcon, CalendarDaysIcon } from '../components/icons/Icons';
-import Header from '../components/common/Header';
-import Footer from '../components/common/Footer';
+import { useAppContext } from '../contexts/AppContext.tsx';
+import Button from '../components/common/Button.tsx';
+import { CodeBracketIcon, UsersGroupIcon, ClockIcon, ChartBarIcon, BellIcon, CalendarDaysIcon } from '../components/icons/Icons.tsx';
+import Header from '../components/common/Header.tsx';
+import Footer from '../components/common/Footer.tsx';
 
 const FeatureCard: React.FC<{ icon: React.ReactNode; title: string; description: string; }> = ({ icon, title, description }) => (
   <div className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-lg transition-shadow duration-300">

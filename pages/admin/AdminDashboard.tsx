@@ -1,11 +1,12 @@
 
+
 import React, { useState } from 'react';
-import { useAppContext } from '../../contexts/AppContext';
-import DashboardHome from './DashboardHome';
-import GenerateTimetable from './GenerateTimetable';
-import ManageTeachers from './ManageTeachers';
-import ClassManagement from './ClassManagement';
-import { CalendarScheduleIcon, LogoutIcon } from '../../components/icons/Icons';
+import { useAppContext } from '../../contexts/AppContext.tsx';
+import DashboardHome from './DashboardHome.tsx';
+import GenerateTimetable from './GenerateTimetable.tsx';
+import ManageTeachers from './ManageTeachers.tsx';
+import ClassManagement from './ClassManagement.tsx';
+import { CalendarScheduleIcon, LogoutIcon } from '../../components/icons/Icons.tsx';
 
 type AdminView = 'dashboard' | 'generate' | 'teachers' | 'classes';
 

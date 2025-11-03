@@ -1,4 +1,5 @@
-import { Teacher, Timetable, Subject } from '../types';
+
+import { Teacher, Timetable, Subject } from '../types.ts';
 
 export const DEPARTMENTS = [
     "Information Technology",

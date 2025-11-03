@@ -1,5 +1,6 @@
+
 import { GoogleGenAI, Type } from "@google/genai";
-import { Teacher, Subject } from '../types';
+import { Teacher, Subject } from '../types.ts';
 
 interface GenerationParams {
     year: string;

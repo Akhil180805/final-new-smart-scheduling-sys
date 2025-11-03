@@ -1,7 +1,8 @@
+
 import React from 'react';
-import { useAppContext } from '../../contexts/AppContext';
-import { CalendarScheduleIcon } from '../icons/Icons';
-import Button from './Button';
+import { useAppContext } from '../../contexts/AppContext.tsx';
+import { CalendarScheduleIcon } from '../icons/Icons.tsx';
+import Button from './Button.tsx';
 
 const Header: React.FC = () => {
   const { setAppView } = useAppContext();

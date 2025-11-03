@@ -1,8 +1,9 @@
+
 import React, { useState } from 'react';
-import { useAppContext } from '../../contexts/AppContext';
-import { TrashIcon, EyeIcon, ChevronLeftIcon } from '../../components/icons/Icons';
-import { Teacher } from '../../types';
-import Button from '../../components/common/Button';
+import { useAppContext } from '../../contexts/AppContext.tsx';
+import { TrashIcon, EyeIcon, ChevronLeftIcon } from '../../components/icons/Icons.tsx';
+import { Teacher } from '../../types.ts';
+import Button from '../../components/common/Button.tsx';
 
 interface ManageTeachersProps {
     setView: (view: 'dashboard' | 'generate' | 'teachers' | 'classes') => void;

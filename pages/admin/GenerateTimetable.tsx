@@ -1,14 +1,14 @@
 
 
 import React, { useState, useEffect } from 'react';
-import { useAppContext } from '../../contexts/AppContext';
-import { MOCK_SUBJECTS_BY_DEPT, DEPARTMENTS } from '../../services/mockData';
-import { generateTimetableAI } from '../../services/geminiService';
-import Button from '../../components/common/Button';
-import Select from '../../components/common/Select';
-import Input from '../../components/common/Input';
-import { Timetable, Subject, Teacher } from '../../types';
-import { ChevronLeftIcon, SpinnerIcon } from '../../components/icons/Icons';
+import { useAppContext } from '../../contexts/AppContext.tsx';
+import { MOCK_SUBJECTS_BY_DEPT, DEPARTMENTS } from '../../services/mockData.ts';
+import { generateTimetableAI } from '../../services/geminiService.ts';
+import Button from '../../components/common/Button.tsx';
+import Select from '../../components/common/Select.tsx';
+import Input from '../../components/common/Input.tsx';
+import { Timetable, Subject, Teacher } from '../../types.ts';
+import { ChevronLeftIcon, SpinnerIcon } from '../../components/icons/Icons.tsx';
 
 interface GenerateTimetableProps {
     setView: (view: 'dashboard' | 'generate' | 'teachers' | 'classes') => void;

@@ -1,6 +1,7 @@
+
 import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
-import { User, Teacher, Timetable } from '../types';
-import { MOCK_TEACHERS, MOCK_TIMETABLES } from '../services/mockData';
+import { User, Teacher, Timetable } from '../types.ts';
+import { MOCK_TEACHERS, MOCK_TIMETABLES } from '../services/mockData.ts';
 
 type AppView = 'landing' | 'login' | 'register' | 'adminDashboard' | 'teacherDashboard';
 

@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
-import { useAppContext } from '../contexts/AppContext';
-import { CalendarScheduleIcon, ChevronLeftIcon } from '../components/icons/Icons';
+import { useAppContext } from '../contexts/AppContext.tsx';
+import { CalendarScheduleIcon, ChevronLeftIcon } from '../components/icons/Icons.tsx';
 
 const LoginPage: React.FC = () => {
   const [role, setRole] = useState<'admin' | 'teacher'>('admin');

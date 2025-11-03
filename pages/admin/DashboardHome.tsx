@@ -2,10 +2,10 @@
 
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { useAppContext } from '../../contexts/AppContext';
-import { UsersGroupIcon, BookOpenIcon, ClockIcon, CalendarDaysIcon, ViewGridIcon, PlusIcon } from '../../components/icons/Icons';
-import Button from '../../components/common/Button';
-import { Lecture } from '../../types';
+import { useAppContext } from '../../contexts/AppContext.tsx';
+import { UsersGroupIcon, BookOpenIcon, ClockIcon, CalendarDaysIcon, ViewGridIcon, PlusIcon } from '../../components/icons/Icons.tsx';
+import Button from '../../components/common/Button.tsx';
+import { Lecture } from '../../types.ts';
 
 interface DashboardHomeProps {
     setView: (view: 'dashboard' | 'generate' | 'teachers' | 'classes') => void;

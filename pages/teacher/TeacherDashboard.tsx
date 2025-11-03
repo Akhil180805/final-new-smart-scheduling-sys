@@ -1,14 +1,14 @@
 
 
 import React, { useState } from 'react';
-import { useAppContext } from '../../contexts/AppContext';
+import { useAppContext } from '../../contexts/AppContext.tsx';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import { CalendarIcon, ClockIcon, CollectionIcon, UserIcon, LogoutIcon, CalendarScheduleIcon, DownloadIcon, BookOpenIcon, ChartBarIcon, ChevronLeftIcon } from '../../components/icons/Icons';
-import Button from '../../components/common/Button';
-import { Teacher, Timetable } from '../../types';
-import Input from '../../components/common/Input';
-import Select from '../../components/common/Select';
-import { DEPARTMENTS } from '../../services/mockData';
+import { CalendarIcon, ClockIcon, CollectionIcon, UserIcon, LogoutIcon, CalendarScheduleIcon, DownloadIcon, BookOpenIcon, ChartBarIcon, ChevronLeftIcon } from '../../components/icons/Icons.tsx';
+import Button from '../../components/common/Button.tsx';
+import { Teacher, Timetable } from '../../types.ts';
+import Input from '../../components/common/Input.tsx';
+import Select from '../../components/common/Select.tsx';
+import { DEPARTMENTS } from '../../services/mockData.ts';
 
 
 const getTodayDateString = () => {

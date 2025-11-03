@@ -1,12 +1,12 @@
 
 
 import React, { useState } from 'react';
-import { useAppContext } from '../../contexts/AppContext';
-import { Timetable, Lecture } from '../../types';
-import Button from '../../components/common/Button';
-import Select from '../../components/common/Select';
-import { MOCK_SUBJECTS_BY_DEPT } from '../../services/mockData';
-import { ChevronLeftIcon, PlusIcon, SearchIcon, BookOpenIcon, UsersIcon, TrashIcon } from '../../components/icons/Icons';
+import { useAppContext } from '../../contexts/AppContext.tsx';
+import { Timetable, Lecture } from '../../types.ts';
+import Button from '../../components/common/Button.tsx';
+import Select from '../../components/common/Select.tsx';
+import { MOCK_SUBJECTS_BY_DEPT } from '../../services/mockData.ts';
+import { ChevronLeftIcon, PlusIcon, SearchIcon, BookOpenIcon, UsersIcon, TrashIcon } from '../../components/icons/Icons.tsx';
 
 interface ClassManagementProps {
     setView: (view: 'dashboard' | 'generate' | 'teachers' | 'classes') => void;

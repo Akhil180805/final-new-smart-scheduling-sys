@@ -1,10 +1,11 @@
+
 import React from 'react';
-import { useAppContext } from './contexts/AppContext';
-import LandingPage from './pages/LandingPage';
-import LoginPage from './pages/LoginPage';
-import TeacherRegistration from './pages/teacher/TeacherRegistration';
-import AdminDashboard from './pages/admin/AdminDashboard';
-import TeacherDashboard from './pages/teacher/TeacherDashboard';
+import { useAppContext } from './contexts/AppContext.tsx';
+import LandingPage from './pages/LandingPage.tsx';
+import LoginPage from './pages/LoginPage.tsx';
+import TeacherRegistration from './pages/teacher/TeacherRegistration.tsx';
+import AdminDashboard from './pages/admin/AdminDashboard.tsx';
+import TeacherDashboard from './pages/teacher/TeacherDashboard.tsx';
 
 const App: React.FC = () => {
   const { appView, user } = useAppContext();

@@ -1,10 +1,11 @@
+
 import React, { useState, useEffect } from 'react';
-import { useAppContext } from '../../contexts/AppContext';
-import Input from '../../components/common/Input';
-import { Teacher } from '../../types';
-import { DEPARTMENTS, MOCK_SUBJECTS_BY_DEPT } from '../../services/mockData';
-import { CalendarScheduleIcon, ChevronLeftIcon } from '../../components/icons/Icons';
-import Select from '../../components/common/Select';
+import { useAppContext } from '../../contexts/AppContext.tsx';
+import Input from '../../components/common/Input.tsx';
+import { Teacher } from '../../types.ts';
+import { DEPARTMENTS, MOCK_SUBJECTS_BY_DEPT } from '../../services/mockData.ts';
+import { CalendarScheduleIcon, ChevronLeftIcon } from '../../components/icons/Icons.tsx';
+import Select from '../../components/common/Select.tsx';
 
 const TeacherRegistration: React.FC = () => {
   const { registerTeacher, setAppView, teachers } = useAppContext();
